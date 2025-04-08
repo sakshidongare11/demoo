@@ -1,0 +1,432 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 18px 0 rgba(129, 162, 182, 0.2);
+    /* position: absolute; */
+    background-color: white;
+    position: fixed;
+  }
+  
+  #container1 {
+    height: 80px;
+    width: 100px;
+    /* border: 2px solid; */
+    font-size: 40px;
+    font-family: Madefor "Helvetica Neue" Helvetica Arial メイリオ meiryo
+      "ヒラギノ角ゴ pro w3";
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    align-content: center;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 30px;
+  }
+  #container2 {
+    height: 80px;
+    width: 170px;
+    /* border: 2px solid; */
+    font-size: 24px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 260px;
+    font-weight: 500;
+  }
+  #container3 {
+    height: 80px;
+    width: 700px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .icon1 {
+    border: 2px solid;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+    font-weight: 400;
+  
+    color: #418aff;
+    border: none;
+    border-right: 1px solid grey;
+  }
+  .icon2:hover {
+    color: #418aff;
+  }
+  .section1 {
+    color: #20303c;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .section2 {
+    color: #20303c;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration-line: underline;
+  }
+  button {
+    height: 40px;
+    width: 150px;
+    /* border: 2px solid; */
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #418aff;
+    color: white;
+    text-align: center;
+    border: none;
+  }
+  #main {
+    height: 900px;
+    width: 100%;
+    /* border: 2px solid; */
+    background-color: #f3f3f3;
+    /* margin-top: 30px; */
+  }
+  nav {
+    /* border: 2px solid; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftcontainer {
+    height: 80px;
+    width: 220px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 28px;
+  }
+  #circle {
+    height: 25px;
+    width: 25px;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    background-color: #eea302;
+  }
+  #text1 {
+    font-size: 22px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+  }
+  #text2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #20303c;
+  }
+  .rightcontainer {
+    height: 80px;
+    width: 270px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #20303c;
+    margin-right: 48px;
+  }
+  .note1 {
+    /* border: 2px solid; */
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+    border: none;
+    border-right: 1px solid;
+  }
+  .note3 {
+    /* border: 2px solid; */
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+    border: none;
+    border-left: 1px solid;
+  }
+  #bigcontainer{
+    height: 800px;
+    width: 1000px;
+    /* border: 2px solid; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-top: -10px;
+  }
+  img{
+    height: 480px;
+    width: 480px;
+    border-radius: 50%;
+  }
+  #nora{
+    height: 300px;
+    width: 370px;
+    /* border: 2px solid; */
+    margin-top: -120px;
+    margin-left: -90px;
+  }
+  .nora1{
+    font-size: 100px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+  }
+  .nora2{
+    font-size: 22px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .nora3{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 24px;
+    font-weight: lighter;
+    color: #20303c;
+    margin-top: 10px;
+  }
+  .nora4{
+    height: 200px;
+    width: 450PX;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -26px;
+  }
+  .circle1{
+    height: 130px;
+    width: 130px;
+    border: 2px solid;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #eea302;
+    border: 0.5px solid;
+  }
+  .circle2{
+    height: 130px;
+    width: 130px;
+    border: 2px solid;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #ff3b25;
+    border: 0.5px solid;
+  }
+  .circle3{
+    height: 130px;
+    width: 130px;
+    border: 2px solid;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #80d8da;
+    border: 0.5px solid;
+  }
+  .circle1:hover{
+    background-color: white;
+  }
+  .circle2:hover{
+    background-color: white;
+  }
+  .circle3:hover{
+    background-color: white;
+  }
+  #ham{
+    display: none;
+  }
+  @media (max-width:500px){
+    header{
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+    }
+    /* nav{
+      margin-top: 200px;
+    } */
+    #container2{
+      /* margin: auto; */
+      margin-top: -20px;
+      margin-left: -38px;
+    }
+    #container1{
+      margin-left: -357px; 
+    }
+    #container3{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+    #sectionham{
+      height: 100px;
+      width: 480px;
+      /* border: 2px solid; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #ham{
+      font-size: 30px;
+      display: block;
+    }
+    .section1{
+      margin-left: 10px;
+    }
+    .rightcontainer{
+      display: none;
+    }
+    .leftcontainer{
+      margin: auto;
+    }
+    #bigcontainer{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    #nora{
+      margin: auto;
+      margin-left: 30px;
+    }
+    .nora1{
+       margin-left: -90px;
+    }
+    .nora2{
+      margin-left: -220px;
+    }
+    .nora3{
+      margin-left: -220px;
+      width: 450px;
+      /* border: 2px solid; */
+    }
+    .nora4{
+      margin-left: -220px;
+    }
+    img{
+      margin-left: -630px;
+      height: 350px;
+      width: 350px;
+      margin-bottom: 140px;
+    }
+    }
+  
+
+  footer{
+    height: 150px;
+    width: 100%;
+   /* border:2px solid;*/
+    border-top: 1px solid grey;
+    color: #20303c;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    background-color: #f3f3f3;
+    bottom: 0;
+}
+#container6{
+    height: 100px;
+    width: 200px;
+    margin-top: 38px;
+    margin-left: 5px;
+    /* border:2px solid; */
+   
+}
+#phone{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: -52px; 
+  }   
+  #no{
+    font-size: medium;
+    font-size: 16px; 
+     font-weight: 400;
+    line-height: 24px;
+    font-family: "Work Sans", sans-serif;
+  } 
+ #Email{
+    height: 100px;
+    width: 200px;
+    /* border: 2px solid; */
+    margin-top: 38px;
+}
+#email{ 
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: -70px;
+    
+
+}
+#info{
+  margin-left: 8px;
+}
+#Follow{
+  height: 100px;
+  width: 160px;
+  margin-top: 38px;
+  /* border: 2px solid; */
+
+}
+#follow1{
+  margin-left: -11px;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+#twitter{
+  margin-left: -43px;
+  font-size: 20px;
+
+}
+#container7{
+  height: 100px;
+  width: 290px;
+  /* border: 2px solid; */
+  font-size: 12px;
+  margin-top: 38px;
+  font-family: sans-serif;
+}
+#nicol1{
+  margin-left: -39px;
+
+}
